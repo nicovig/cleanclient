@@ -1,0 +1,24 @@
+{
+  "cleanclientApp": {
+    "importFichier": {
+      "home": {
+        "title": "ImportFichiers",
+        "createLabel": "Créer un nouveau Import Fichier",
+        "createOrEditLabel": "Créer ou éditer un Import Fichier"
+      },
+      "created": "Un nouveau Import Fichier a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Import Fichier avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Import Fichier avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le Import Fichier {{ id }} ?"
+      },
+      "detail": {
+        "title": "Import Fichier"
+      },
+      "traitementId": "Traitement Id",
+      "dateDeDebut": "Date De Debut",
+      "importLigne": "Import Ligne",
+      "user": "User"
+    }
+  }
+}

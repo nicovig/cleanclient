@@ -1,0 +1,33 @@
+{
+  "cleanclientApp": {
+    "ligneProspect": {
+      "home": {
+        "title": "LigneProspects",
+        "createLabel": "Créer un nouveau Ligne Prospect",
+        "createOrEditLabel": "Créer ou éditer un Ligne Prospect",
+        "notFound": "Aucun Ligne Prospect trouvé"
+      },
+      "created": "Un nouveau Ligne Prospect a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Ligne Prospect avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Ligne Prospect avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le Ligne Prospect {{ id }} ?"
+      },
+      "detail": {
+        "title": "Ligne Prospect"
+      },
+      "sireneSiret": "Sirene Siret",
+      "sireneDenomination": "Sirene Denomination",
+      "sireneHousenumber": "Sirene Housenumber",
+      "sireneStreet": "Sirene Street",
+      "sireneCodepostal": "Sirene Codepostal",
+      "sireneVille": "Sirene Ville",
+      "sireneLatitude": "Sirene Latitude",
+      "sireneLongitude": "Sirene Longitude",
+      "sireneEtatadministratif": "Sirene Etatadministratif",
+      "sireneNomenclature": "Sirene Nomenclature",
+      "sireneTrancheeffectif": "Sirene Trancheeffectif",
+      "importLigne": "Import Ligne"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "cleanclientApp": {
+    "facture": {
+      "home": {
+        "title": "Factures",
+        "createLabel": "Create a new Facture",
+        "createOrEditLabel": "Create or edit a Facture",
+        "notFound": "No Facture found"
+      },
+      "created": "A new Facture is created with identifier {{ param }}",
+      "updated": "A Facture is updated with identifier {{ param }}",
+      "deleted": "A Facture is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Facture {{ id }}?"
+      },
+      "detail": {
+        "title": "Facture"
+      },
+      "particulier": "Particulier",
+      "raisonSociale": "Raison Sociale",
+      "siret": "Siret",
+      "nom": "Nom",
+      "prenom": "Prenom",
+      "telephone": "Telephone",
+      "noVoie": "No Voie",
+      "rue": "Rue",
+      "cp": "Cp",
+      "ville": "Ville",
+      "mail": "Mail",
+      "paye": "Paye",
+      "tva": "Tva",
+      "montant": "Montant",
+      "importFichier": "Import Fichier"
+    }
+  }
+}

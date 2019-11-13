@@ -1,0 +1,51 @@
+{
+  "cleanclientApp": {
+    "importLigne": {
+      "home": {
+        "title": "ImportLignes",
+        "createLabel": "Créer un nouveau Import Ligne",
+        "createOrEditLabel": "Créer ou éditer un Import Ligne",
+        "notFound": "Aucun Import Ligne trouvé"
+      },
+      "created": "Un nouveau Import Ligne a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Import Ligne avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Import Ligne avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le Import Ligne {{ id }} ?"
+      },
+      "detail": {
+        "title": "Import Ligne"
+      },
+      "statut": "Statut",
+      "matchingMethod": "Matching Method",
+      "idExterne": "Id Externe",
+      "nom": "Nom",
+      "adresse": "Adresse",
+      "cp": "Cp",
+      "ville": "Ville",
+      "siret": "Siret",
+      "geolocScore": "Geoloc Score",
+      "geolocLabel": "Geoloc Label",
+      "geolocHousenumber": "Geoloc Housenumber",
+      "geolocStreet": "Geoloc Street",
+      "geolocPostcode": "Geoloc Postcode",
+      "geolocCity": "Geoloc City",
+      "geolocLatitude": "Geoloc Latitude",
+      "geolocLongitude": "Geoloc Longitude",
+      "sireneSiret": "Sirene Siret",
+      "sireneDenomination": "Sirene Denomination",
+      "sireneHousenumber": "Sirene Housenumber",
+      "sireneStreet": "Sirene Street",
+      "sireneCodepostal": "Sirene Codepostal",
+      "sireneVille": "Sirene Ville",
+      "sireneLatitude": "Sirene Latitude",
+      "sireneLongitude": "Sirene Longitude",
+      "sireneEtatadministratif": "Sirene Etatadministratif",
+      "sireneNomenclature": "Sirene Nomenclature",
+      "sireneTrancheeffectif": "Sirene Trancheeffectif",
+      "elasticScore": "Elastic Score",
+      "importFichier": "Import Fichier",
+      "ligneProspect": "Ligne Prospect"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "cleanclientApp": {
+    "ligneProspect": {
+      "home": {
+        "title": "Ligne Prospects",
+        "createLabel": "Create a new Ligne Prospect",
+        "createOrEditLabel": "Create or edit a Ligne Prospect",
+        "notFound": "No Ligne Prospect found"
+      },
+      "created": "A new Ligne Prospect is created with identifier {{ param }}",
+      "updated": "A Ligne Prospect is updated with identifier {{ param }}",
+      "deleted": "A Ligne Prospect is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Ligne Prospect {{ id }}?"
+      },
+      "detail": {
+        "title": "Ligne Prospect"
+      },
+      "sireneSiret": "Sirene Siret",
+      "sireneDenomination": "Sirene Denomination",
+      "sireneHousenumber": "Sirene Housenumber",
+      "sireneStreet": "Sirene Street",
+      "sireneCodepostal": "Sirene Codepostal",
+      "sireneVille": "Sirene Ville",
+      "sireneLatitude": "Sirene Latitude",
+      "sireneLongitude": "Sirene Longitude",
+      "sireneEtatadministratif": "Sirene Etatadministratif",
+      "sireneNomenclature": "Sirene Nomenclature",
+      "sireneTrancheeffectif": "Sirene Trancheeffectif",
+      "importLigne": "Import Ligne"
+    }
+  }
+}

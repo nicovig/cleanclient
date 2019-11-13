@@ -1,0 +1,148 @@
+.etatTotal{
+    float: left;
+    position: relative;
+    font-weight: bold;
+}
+.total{
+    font-weight: normal;   
+    font-size: 1.115em;
+    float: left;
+}
+
+.progress{
+    height: 2.5em; 
+    border-radius: 0.85em
+}
+
+.value{
+    text-align: left;
+    font-weight: normal;
+    font-size: 1.115em;
+    
+}
+
+.spinner {
+    margin: 1.75rem auto;
+    margin-bottom: 1rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    position: relative;
+    text-align: center;
+    
+    -webkit-animation: sk-rotate 2.0s infinite linear;
+    animation: sk-rotate 2.0s infinite linear;
+  }
+  
+  .dot1, .dot2 {
+    width: 60%;
+    height: 60%;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    background-color: #2f2783;  
+    border-radius: 100%;
+    
+    -webkit-animation: sk-bounce 2.0s infinite ease-in-out;
+    animation: sk-bounce 2.0s infinite ease-in-out;
+  }
+  
+  .dot2 {
+    top: auto;
+    bottom: 0;
+    -webkit-animation-delay: -1.0s;
+    animation-delay: -1.0s;
+  }
+  
+  @-webkit-keyframes sk-rotate { 100% { -webkit-transform: rotate(360deg) }}
+  @keyframes sk-rotate { 100% { transform: rotate(360deg); -webkit-transform: rotate(360deg) }}
+  
+  @-webkit-keyframes sk-bounce {
+    0%, 100% { -webkit-transform: scale(0.0) }
+    50% { -webkit-transform: scale(1.0) }
+  }
+  
+  @keyframes sk-bounce {
+    0%, 100% { 
+      transform: scale(0.0);
+      -webkit-transform: scale(0.0);
+    } 50% { 
+      transform: scale(1.0);
+      -webkit-transform: scale(1.0);
+    }
+  }
+  
+  @import url('https://fonts.googleapis.com/css?family=Roboto:300');
+
+.text-container {
+  margin: 1.75rem;
+  margin-bottom: 1rem;
+  position: relative;
+  text-align:center;
+  color:#2f2783;
+  font-family:'Roboto';
+  font-weight:300;
+  font-size:3rem;
+  
+  overflow:hidden;
+}
+
+.text-animation {
+  display:inline-block;
+  overflow:hidden;
+  white-space:nowrap;
+}
+
+.text-animation:last-of-type span {
+  margin-left:-355px;
+  animation: slidein 3.5s infinite;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes slidein {
+    0% { margin-left:-800px; }
+    20% { margin-left:-800px; }
+    35% { margin-left:0px; }
+    100% { margin-left:0px; }
+}
+
+.row{
+  text-align: center;
+}
+
+.carto{
+  position: relative;
+  height: 35rem;
+  width: 67.5rem;
+}
+.table{
+    height: 25rem;
+    width: 67.5rem;
+}
+.cardsTitle{
+  font-weight: bold;
+}
+
+.anchorButton{
+  display: block;
+  background-color: #737373;
+  color: white; 
+  font-weight: 200;
+}
+.anchorButton:link{
+  color: white;                   
+}
+.anchorButton:visited{
+  color: white;
+}
+.anchorButton:hover{
+  color: white;
+}
+.anchorButton:active{
+  color: white;
+}
+
+.buttonResult{
+  position: relative;
+  
+}

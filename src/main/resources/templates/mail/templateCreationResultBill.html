@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <title th:text="#{email.template.title}">JHipster creation</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <link rel="shortcut icon" th:href="@{|${baseUrl}/favicon.ico|}" />
+    </head>
+    <header>
+        <img src="./logo-effidic.png">
+    </header>
+    <body>
+        <p th:text="#{email.activation.greeting(${user.login})}">
+            Dear
+        </p>
+        <h1 th:text="#{email.template.remerciements}">Remerciements</h1>
+        <p th:text="#{email.template.text1}">text1</p>
+        <p th:text="#{email.template.text2}">text2<p>
+        <p>
+            <a th:with="url=(@{|${baseUrl}/activate?key=${user.activationKey}|})" th:href="${url}"
+            th:text="${url}">Activation link</a>
+        </p>
+
+        </p>
+        <p>
+            <span th:text="#{email.template.text3}">text3</span>	
+            <br/>
+            <em th:text="#{email.template.signature}">signature</em>
+        </p>
+    </body>
+</html>

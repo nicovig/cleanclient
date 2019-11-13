@@ -1,0 +1,16 @@
+{
+  "upload": {
+    "title": "Etape 1 : importez votre fichier excel de client BtoB",
+    "warning": "IMPORTANT : votre fichier doit contenir les entêtes suivantes en première ligne (et en minuscule)  : nom, adresse, code postal, ville, siret. Et ce même si les données ne sont pas renseignées.",
+    "advice": "CONSEIL : Vous pouvez ajouter une colonne nommée idexterne avec votre identifiant à vous. Celle-ci vous permettra une meilleure réintégration du fichier nettoyé dans votre système d'information.",
+    "buttonLabel": "Importer mon fichier...",
+    "buttonModifyLabel": "Changer de fichier...",
+    "preview": "Prévisualisation du fichier : ",
+    "file-is-ok": "Le fichier est correct, il peut être analysé  ",
+    "launch": "Lancez l'analyse !",
+    "errorStructure": "Des colonnes sont manquantes mais nécessaires dans la structure du fichier : ",
+    "modal": {
+      "title": "Choisissez la feuille à lire"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "cleanclientApp": {
+    "importLigne": {
+      "home": {
+        "title": "ImportLignes",
+        "createLabel": "Créer un nouveau Import Ligne",
+        "createOrEditLabel": "Créer ou éditer un Import Ligne"
+      },
+      "created": "Un nouveau Import Ligne a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Import Ligne avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Import Ligne avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le Import Ligne {{ id }} ?"
+      },
+      "detail": {
+        "title": "Import Ligne"
+      },
+      "nom": "Nom",
+      "adresse": "Adresse",
+      "cp": "Cp",
+      "ville": "Ville",
+      "siret": "Siret",
+      "externalId": "External Id",
+      "importFichier": "Import Fichier"
+    }
+  }
+}

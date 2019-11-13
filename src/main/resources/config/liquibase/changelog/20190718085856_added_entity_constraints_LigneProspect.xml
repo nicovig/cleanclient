@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.6.xsd">
+    <!--
+        Added the constraints for entity LigneProspect.
+    -->
+    <changeSet id="20190718085856-2" author="jhipster">
+        
+        <addForeignKeyConstraint baseColumnNames="import_ligne_id"
+                                 baseTableName="ligne_prospect"
+                                 constraintName="fk_ligne_prospect_import_ligne_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="import_ligne"/>
+
+    </changeSet>
+</databaseChangeLog>
